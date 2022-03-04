@@ -1,9 +1,12 @@
 package Leetcode_suanfa;
 
 
+import java.util.Scanner;
+
 public class demo {
     public static void main(String[] args) {
-        String s = "hello";
-        System.out.println(s.substring(1,3));
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        System.out.println(s);
     }
 }

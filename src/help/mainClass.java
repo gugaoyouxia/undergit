@@ -9,7 +9,7 @@ public class mainClass {
         //字符串请用英文输入法，且字符串中不能有空格
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please input a string : ");
-        String s = scanner.next();
+        String s = scanner.nextLine();
         Formula formula = new Formula();
         if(formula.isFormula(s)){
             System.out.println("true");
